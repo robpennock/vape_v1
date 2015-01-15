@@ -1,2 +1,50 @@
-<h1>Welcome#kits</h1>
-<p>Find me in app/views/welcome/kits.html.erb</p>
+<% provide(:title, "Kits") %>
+<div class="col-lg-10 col-lg-offset-1">
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		</ol>	
+	  <!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<%= image_tag "vaporrev1.jpg", size: "960x640" %>
+				<div class="carousel-caption">
+					<h1>At EleVape</h1>
+					</br>
+					<h3>We have a generous selction of</h3>
+					<h3>Vapor Kits and Mods</h3>
+				</div>
+			</div>
+			<div class="item">
+      			<%= image_tag "vaporrev2.jpg", size: "960x640" %>
+      			<div class="carousel-caption">
+          			<h1>We Only Carry American made</h1>
+          			<h3>Vapor Kits and Mods</h3>
+      			</div>
+    		</div>
+   			<div class="item">
+      			<%= image_tag "vaporrev3.jpg", size: "960x640" %>
+      			<div class="carousel-caption">
+          			<h1>Visit Us At</h1>
+          			<h3>123 bla bla ave</h3>
+          			<h3>Valejo, CA</h3>
+          			<h3>PH: 555-5555</h3>
+      			</div>
+    		</div>
+  		</div>
+
+  		<!-- Controls -->
+		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    		<!--<span class="glyphicon glyphicon-chevron-left"></span>-->
+    		&laquo;
+  		</a>
+  		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
+			&raquo;
+		</a>
+	</div> <!-- Carousel -->
+</div>
+

@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= content_for?(:title) ? yield(:title) : "VapeV1" %></title>
+    <!-- <title><%= content_for?(:title) ? yield(:title) : "VapeV1" %></title> -->
+    <title><%= yield(:title) %> | EleVape</title>
     <%= csrf_meta_tags %>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -59,20 +60,15 @@
     <!--Below alligns the  container center-->
     <div class="container">
       <div class="row">
-        <div class="col-lg-10 col-lg-offset-2">
-          <div class="row">
-            <div class="col-lg-2">
-            </div>
-            <div class="col-lg-8">
-              <%= bootstrap_flash %>
-              <%= yield %>
-            </div>
-            <div class="col-lg-2">
-            </div>
-          </div><!-- innermost row -->
-        </div>
+        <!-- <div class="col-lg-10 col-lg-offset-2">
+          <div class="row"> -->
+            <%= bootstrap_flash %>
+            <%= yield %>
+          <!--</div>
+        </div> --><!-- innermost row -->
       </div>
     </div>
+
     <!--/row-->
     <footer class="col-md-3 col-md-offset-1">
       <p>&copy; Elevape LLC 2015</p>

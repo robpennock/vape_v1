@@ -1,2 +1,55 @@
-<h1>Welcome To Elevape</h1>
-<p>Home of Valejo's Finest Vapor</p>
+<% provide(:title, "Home") %>
+
+<div class="col-lg-12">
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		</ol>	
+	  <!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<%= image_tag "Tall-Iceberg-1280x720.jpg", size: "1280x720" %>
+				<div class="carousel-caption">
+					<h1>Welcome to EleVape</h1>
+					</br>
+					<h3>Home of Valejo's Finest Vapor</h3>
+					</br>
+				</div>
+			</div>
+			<div class="item">
+      			<%= image_tag "Tall-Iceberg-1280x720.jpg", size: "1280x720" %>
+      			<div class="carousel-caption">
+          			<h1>Organic and Locally Made</h1>
+          			<h3>For the cleanest experience</h3>
+      			</div>
+    		</div>
+   			<div class="item">
+      			<%= image_tag "Tall-Iceberg-1280x720.jpg", size: "1280x720" %>
+      			<div class="carousel-caption">
+          			<h1>Visit Us At</h1>
+          			<h3>123 bla bla ave</h3>
+          			<h3>Valejo, CA</h3>
+          			<h3>PH: 555-5555</h3>
+      			</div>
+    		</div>
+  		</div>
+
+  		<!-- Controls -->
+		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    		<!--<span class="glyphicon glyphicon-chevron-left"></span>-->
+    		&laquo;
+  		</a>
+  		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
+			&raquo;
+		</a>
+	</div> <!-- Carousel -->
+	<div align="center">
+		<h1>Welcome To EleVape</h1>
+	</div>
+
+
+</div>

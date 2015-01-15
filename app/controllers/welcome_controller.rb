@@ -1,5 +1,6 @@
 class WelcomeController < ApplicationController
   def home
+  	@vapor = 'assets/images/vapor2.jpg'
   end
 
   def fluids
