@@ -33,7 +33,7 @@ body{
 
       margin-bottom: 20%;
       text-align:center;
-      text-shadow: black 3px 3px 2px;
+      text-shadow: black 2px 2px 2px;
 }
 /* Override Bootstrap 3 font locations */
 /*for glyphicon failures*/
