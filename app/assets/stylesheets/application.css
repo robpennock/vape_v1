@@ -17,13 +17,27 @@
  /*below is needed to prevent gap between navbar and body*/
  /*since this is in assets pipeline, need to rake assets:precompile*/
 .navbar{
-margin-bottom: 0;
+  margin-bottom: 1;
+  font-family: 'Yesteryear', 'cursive';
+  font-weight: 800;
 }
 body{
 	margin-top: 0;
 	background-color: #668080;
+  font-family: 'Yesteryear', 'cursive';
+  font-weight: bold;
 }
-
+.carousel{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 1;
+  padding-right: 2;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-radius: 5px;
+}
 /*carousel width and height*/
 .carousel-inner{
   width:100%;

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <title><%= content_for?(:title) ? yield(:title) : "VapeV1" %></title> -->
+    <!-- <title><%= content_for?(:title) ? yield(:title) : "Elevape" %></title> -->
     <title><%= yield(:title) %> | EleVape</title>
     <%= csrf_meta_tags %>
 
@@ -36,6 +36,7 @@
     <%= favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
 
     <%= javascript_include_tag "application" %>
+    <link href='http://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
   </head>
   <body>
 
@@ -46,7 +47,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="">EleVape!</a>
+        <a class="navbar-brand" href="/home">Elevape</a>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><%= link_to "Home", home_path  %></li>
