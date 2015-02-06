@@ -21729,3 +21729,1614 @@ Processing by WelcomeController#home as HTML
   Rendered inline template (0.3ms)
   Rendered inline template (0.3ms)
 Completed 200 OK in 225ms (Views: 224.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:26:48 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 471ms (Views: 443.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:26:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:26:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:26:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:26:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:26:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:26:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:26:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:26:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:26:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:26:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:26:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:26:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:26:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:26:49 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:26:49 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:26:49 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:27:26 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 256ms (Views: 255.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:27:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:27 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:27 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:27 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:27:51 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.8ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 402ms (Views: 388.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:27:52 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:52 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:52 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:52 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:52 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:52 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:52 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:52 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:52 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:52 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:52 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:52 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:52 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:52 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:52 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:27:52 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:28:18 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.6ms)
+Completed 200 OK in 262ms (Views: 260.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:28:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:18 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:18 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:18 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:28:34 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 349ms (Views: 336.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:28:35 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:35 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:35 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:35 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:35 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:35 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:35 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:35 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:35 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:35 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:35 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:35 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:35 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:35 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:35 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:28:35 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:30:26 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 354ms (Views: 340.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:30:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:30:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:30:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:30:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:30:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:30:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:30:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:30:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:30:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:30:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:30:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:30:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:30:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:30:27 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:30:27 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:30:27 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:31:57 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 422ms (Views: 409.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:31:57 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:31:57 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:31:57 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:31:57 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:31:57 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:31:57 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:31:57 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:31:57 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:31:57 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:31:57 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:31:57 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:31:57 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:31:58 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:31:58 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:31:58 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:31:58 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:33:39 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 349ms (Views: 337.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:33:40 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:33:40 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:33:40 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:33:40 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:33:40 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:33:40 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:33:40 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:33:40 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:33:40 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:33:40 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:33:40 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:33:40 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:33:40 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:33:40 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:33:40 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:33:40 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:35:01 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 351ms (Views: 338.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:35:01 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:35:01 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:35:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:35:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:35:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:35:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:35:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:35:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:35:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:35:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:35:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:35:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:35:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:35:02 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:35:02 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:35:02 -0800
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-02-06 00:35:24 -0800
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.7ms)
+Completed 200 OK in 238ms (Views: 237.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-02-06 00:35:30 -0800
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 221ms (Views: 220.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-06 00:35:38 -0800
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.7ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 245ms (Views: 244.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:35:45 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+  Rendered inline template (0.6ms)
+Completed 200 OK in 230ms (Views: 228.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:35:46 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 227ms (Views: 226.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-02-06 00:35:48 -0800
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 223ms (Views: 222.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-02-06 00:35:49 -0800
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 211ms (Views: 210.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-06 00:35:50 -0800
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 225ms (Views: 224.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:35:58 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 224ms (Views: 222.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:40:02 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 344ms (Views: 331.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:40:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:03 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:03 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:03 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:03 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:03 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:03 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:03 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:03 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:03 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:03 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:03 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:03 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:03 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:03 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:03 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:40:06 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.5ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.4ms)
+Completed 200 OK in 262ms (Views: 260.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:40:06 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:06 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:06 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:06 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:06 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:06 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:06 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:06 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:06 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:06 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:06 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:06 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:06 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:06 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:06 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:40:06 -0800
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-02-06 00:40:22 -0800
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 221ms (Views: 220.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:40:42 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.5ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 273ms (Views: 272.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:41:29 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 350ms (Views: 337.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:41:30 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:30 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:30 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:30 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:30 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:30 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:30 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:30 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:30 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:30 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:30 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:30 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:30 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:30 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:30 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:30 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:41:33 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 262ms (Views: 261.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:41:33 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:33 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:33 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:33 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:33 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:33 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:33 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:33 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:33 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:33 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:33 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:33 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:33 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:33 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:33 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:41:33 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:46:25 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.8ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 423ms (Views: 410.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:26 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:26 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:26 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:46:31 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 281ms (Views: 280.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:46:32 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:32 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:32 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:32 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:32 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:32 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:32 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:32 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:32 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:32 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:32 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:32 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:32 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:32 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:32 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:32 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:46:38 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 245ms (Views: 244.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:46:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:38 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:38 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:46:38 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:53:52 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.5ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 432ms (Views: 419.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:53:53 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:53:53 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:53:53 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:53:53 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:53:53 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:53:53 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:53:53 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:53:53 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:53:53 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:53:53 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:53:53 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:53:53 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:53:53 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:53:53 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:53:53 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:53:53 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:54:48 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 345ms (Views: 332.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:54:48 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:54:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:54:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:54:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:54:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:54:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:54:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:54:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:54:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:54:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:54:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:54:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:54:49 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:54:49 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:54:49 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:54:49 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:55:02 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 261ms (Views: 260.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:55:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:02 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:02 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:02 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:02 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:55:17 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.7ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 395ms (Views: 376.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:55:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:18 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:18 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:18 -0800
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:55:22 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 245ms (Views: 244.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:55:23 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:23 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:23 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:23 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:23 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:23 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:23 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:23 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:23 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:23 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:23 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:23 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:23 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:23 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:23 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:55:23 -0800
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-02-06 00:56:26 -0800
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.4ms)
+Completed 200 OK in 229ms (Views: 228.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-02-06 00:58:18 -0800
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.5ms)
+Completed 200 OK in 434ms (Views: 421.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:58:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:58:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:58:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:58:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:58:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:58:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:58:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:58:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:58:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:58:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:58:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:58:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:58:18 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:58:18 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:58:19 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:58:19 -0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-06 00:58:29 -0800
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.8ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 241ms (Views: 239.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-02-06 00:58:30 -0800
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 243ms (Views: 242.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-02-06 00:58:32 -0800
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 212ms (Views: 211.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:58:34 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 224ms (Views: 223.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-02-06 00:58:36 -0800
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 222ms (Views: 221.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-02-06 00:58:37 -0800
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 222ms (Views: 220.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-06 00:58:38 -0800
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 227ms (Views: 226.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-02-06 00:58:42 -0800
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 233ms (Views: 231.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-02-06 00:58:44 -0800
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 231ms (Views: 230.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:59:54 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 357ms (Views: 345.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 00:59:55 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 236ms (Views: 235.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 00:59:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 00:59:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 00:59:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 00:59:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 00:59:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 00:59:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 00:59:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 00:59:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 00:59:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 00:59:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 00:59:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 00:59:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 00:59:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 00:59:56 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 00:59:56 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 00:59:56 -0800
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-02-06 01:00:08 -0800
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 236ms (Views: 235.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-02-06 01:00:11 -0800
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 218ms (Views: 217.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-06 01:00:13 -0800
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 229ms (Views: 228.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-02-06 01:00:25 -0800
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.6ms)
+  Rendered inline template (0.6ms)
+Completed 200 OK in 228ms (Views: 227.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-02-06 01:00:27 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 225ms (Views: 224.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 01:00:46 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 231ms (Views: 230.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-02-06 01:00:46 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-02-06 01:00:46 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-02-06 01:00:46 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-02-06 01:00:46 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-02-06 01:00:46 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-02-06 01:00:46 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-02-06 01:00:46 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-02-06 01:00:46 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-02-06 01:00:46 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-02-06 01:00:46 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-02-06 01:00:46 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-02-06 01:00:46 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-02-06 01:00:46 -0800
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-02-06 01:00:46 -0800
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-02-06 01:00:47 -0800
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-02-06 01:00:47 -0800
