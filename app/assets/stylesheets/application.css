@@ -14,7 +14,6 @@
  *= require_self
  */
 
- /*below is needed to prevent gap between navbar and body*/
  /*since this is in assets pipeline, need to rake assets:precompile*/
 .navbar{
   margin-bottom: 1;
@@ -22,16 +21,24 @@
   font-weight: 800;
 }
 /*navbar text size*/
+/*doesn't cover navbar-brand*/
 #custom-bootstrap-menu.navbar-default {
     font-size: 21px;
 } 
 .navbar-brand {
     font-size: 21px;
+    text-shadow: 1px 1px #27f2d4;
 }
+/*for the text color change on the hover*/
 #navBrand:hover {
     color: #27f2d4 !important; 
     text-shadow: 1px 1px black;
 }
+/*hover over navbar elements*/
+.navbar .brand, .navbar .nav > li > a{
+    text-shadow: 1px 1px #27f2d4;
+}
+/*hover over navbar elements*/
 .navbar .brand, .navbar .nav > li > a:hover {
     color: #27f2d4;
     text-shadow: 1px 1px black;
@@ -43,21 +50,24 @@ html{
 
 body{
 	margin-top: 0;
+  margin-bottom: 2;
+
+
 	/*background-color: #668080;*/
-  font-family: 'Yesteryear', 'cursive';
+  font-family: 'Pacifico', cursive;
   font-weight: bold;
   font-size: 21;
-
-  background: -webkit-linear-gradient(155deg, red, blue); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(155deg, red, blue); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(155deg, red, blue); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(155deg, #444740, #E6E8E3, #B9BAB6); /* Standard syntax */
+  /* below is gradient background */
+  background: -webkit-linear-gradient(155deg, white, gray); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(155deg, white, gray); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(155deg, white, gray); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(155deg, #444740, #E6E8E3, #B9BAB6); /* Standard */
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 100%;
   
 }
-
+/*carousel outline*/
 .carousel{
   padding-top: 0px;
   padding-bottom: 0px;
@@ -68,6 +78,7 @@ body{
   border-left: 1px solid black;
   border-right: 1px solid black;
   border-radius: 5px;
+  overflow: hidden;
 }
 /*carousel width and height*/
 .carousel-inner{
@@ -78,9 +89,9 @@ body{
 }
 .carousel-caption {
 
-      margin-bottom: 20%;
-      text-align:center;
-      text-shadow: black 2px 2px 2px;
+  margin-bottom: 20%;
+  text-align:center;
+  text-shadow: black 2px 2px 2px;
 }
 /* Override Bootstrap 3 font locations */
 /*for glyphicon failures*/
@@ -97,5 +108,21 @@ body{
     text-align: center;
     img {
         margin: 0 auto;
+        overflow: hidden;
     }
+}
+#elevapeLogo{
+  font-family: 'Yesteryear', 'cursive';
+  font-size: 40px;
+  font-weight: 100;
+  background-color: black;
+  color: white;
+  text-shadow: -1px 1px 4px #27f2d4;
+}
+#instagram{
+  font-size: 40px;
+  font-weight: 100;
+  background-color: black;
+  color: white;
+  text-shadow: -1px 1px 4px #27f2d4;
 }

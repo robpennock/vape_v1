@@ -8,7 +8,7 @@ class WelcomeController < ApplicationController
 		#uniform img size for carousel
 		@imgSize = "1280x720"
 		#strings of tag text for carousel captions
-		@carTagText = ["<h1>Welcome to EleVape</h1>
+		@carTagText = ["<h1>Welcome to elevape</h1>
 					</br>
 					<h3>Home of Vallejo's Finest Vapor Products</h3>
 					</br>", 
@@ -24,7 +24,7 @@ class WelcomeController < ApplicationController
 	def fluids
 		@vImages = [ "fluid1.jpg", "fluid2.jpg", "fluid3.jpg" ]
 		@imgSize = "800x600"
-		@carTagText = ["<h1>At EleVape</h1>
+		@carTagText = ["<h1>At elevape</h1>
 					</br>
 					<h3>We <i>Only</i> Carry Finest Vapor Products</h3>
 					</br>", 
@@ -40,7 +40,7 @@ class WelcomeController < ApplicationController
 	def kits
 		@vImages = [ "vaporrev1.jpg", "vaporrev2.jpg", "vaporrev3.jpg" ]
 		@imgSize = "960x640"
-		@carTagText = ["<h1>At EleVape</h1>
+		@carTagText = ["<h1>At elevape</h1>
 					</br>
 					<h3>We <i>Only</i> Carry Finest Vapor Products</h3>
 					</br>", 
@@ -56,7 +56,7 @@ class WelcomeController < ApplicationController
 	def about
 		@vImages = [ "big-family1.jpg", "big-family2.jpg", "big-family2.jpg" ]
 		@imgSize = "1300x866"
-		@carTagText = ["<h1>EleVape is Family Owned and Operated</h1>
+		@carTagText = ["<h1><b>elevape</b> is Family Owned and Operated</h1>
 					</br>", 
 					"<h1>Come by and visit us anytime!</h1>
           			</br>",
