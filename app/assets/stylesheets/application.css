@@ -20,14 +20,21 @@
   font-family: 'Yesteryear', 'cursive';
   font-weight: 800;
 }
+/*fixes navbar text color*/
+.navbar a {
+}
 /*navbar text size*/
 /*doesn't cover navbar-brand*/
 #custom-bootstrap-menu.navbar-default {
     font-size: 21px;
 } 
-.navbar-brand {
+.navbar .navbar-default .navbar-brand {
     font-size: 21px;
-    text-shadow: 1px 1px #27f2d4;
+    text-shadow: 2px 2px #27f2d4;
+}
+.navbar .navbar-default .navbar-brand a{
+    font-size: 21px;
+    text-shadow: 2px 2px #27f2d4;
 }
 /*for the text color change on the hover*/
 #navBrand:hover {
@@ -54,7 +61,7 @@ body{
 
 
 	/*background-color: #668080;*/
-  font-family: 'Pacifico', cursive;
+  font-family: 'Lobster', cursive;
   font-weight: bold;
   font-size: 21;
   /* below is gradient background */
@@ -91,7 +98,8 @@ body{
 
   margin-bottom: 20%;
   text-align:center;
-  text-shadow: black 2px 2px 2px;
+  color: white;
+  text-shadow: black 2px 2px 6px;
 }
 /* Override Bootstrap 3 font locations */
 /*for glyphicon failures*/

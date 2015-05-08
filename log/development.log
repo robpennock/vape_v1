@@ -27407,3 +27407,995 @@ Processing by WelcomeController#fluids as HTML
   Rendered inline template (0.3ms)
   Rendered inline template (0.3ms)
 Completed 200 OK in 366ms (Views: 353.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 18:44:31 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (1.7ms)
+  Rendered inline template (0.8ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 439ms (Views: 423.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 18:44:34 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 238ms (Views: 237.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 18:44:35 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 221ms (Views: 220.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-05-06 18:44:37 -0700
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 253ms (Views: 251.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 18:44:40 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 226ms (Views: 225.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 18:45:40 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 359ms (Views: 346.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 18:48:10 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (3.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 370ms (Views: 349.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 18:48:12 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 238ms (Views: 237.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 18:48:16 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 247ms (Views: 246.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 18:53:17 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 343ms (Views: 331.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 18:53:20 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 229ms (Views: 227.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 18:53:21 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 217ms (Views: 216.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-05-06 18:53:23 -0700
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 243ms (Views: 242.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 18:53:25 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 232ms (Views: 231.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 18:55:57 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 354ms (Views: 342.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 18:57:04 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 357ms (Views: 345.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 18:58:13 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 365ms (Views: 352.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 18:58:16 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 250ms (Views: 249.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 18:58:37 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.5ms)
+  Rendered inline template (0.5ms)
+  Rendered inline template (0.4ms)
+Completed 200 OK in 383ms (Views: 370.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 18:58:42 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 298ms (Views: 296.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 18:59:34 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 349ms (Views: 337.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 18:59:36 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 232ms (Views: 231.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-05-06 18:59:39 -0700
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 227ms (Views: 226.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 18:59:41 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (4.4ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.4ms)
+Completed 200 OK in 287ms (Views: 286.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:00:48 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 355ms (Views: 342.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:01:02 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.5ms)
+  Rendered inline template (1.2ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 345ms (Views: 344.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:01:04 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 214ms (Views: 213.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:05:56 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 354ms (Views: 341.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:06:00 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.4ms)
+Completed 200 OK in 250ms (Views: 249.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:06:51 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.7ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 367ms (Views: 354.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:08:34 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.6ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 359ms (Views: 347.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 19:09:34 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 238ms (Views: 237.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 19:10:23 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 353ms (Views: 341.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:10:26 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 234ms (Views: 233.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:10:53 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 352ms (Views: 339.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:10:57 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 254ms (Views: 253.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:11:12 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 409ms (Views: 397.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:12:02 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 359ms (Views: 346.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-06 19:12:17 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 301ms (Views: 300.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2015-05-06 19:12:20 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/rob/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/rob/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/rob/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (8.7ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (48.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-06 19:12:22 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.1ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 240ms (Views: 237.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:13:18 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 355ms (Views: 343.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:16:21 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 359ms (Views: 346.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 19:16:44 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 254ms (Views: 253.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 19:24:39 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (2.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 429ms (Views: 414.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:24:51 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.0ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (3.4ms)
+  Rendered inline template (0.5ms)
+Completed 200 OK in 382ms (Views: 381.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 19:25:01 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.8ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 226ms (Views: 224.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-05-06 19:25:08 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 243ms (Views: 242.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-05-06 19:25:09 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.5ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.4ms)
+Completed 200 OK in 455ms (Views: 454.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-05-06 19:25:12 -0700
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.5ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 319ms (Views: 318.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:25:22 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.4ms)
+Completed 200 OK in 334ms (Views: 333.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:25:23 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 316ms (Views: 315.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 19:25:27 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 364ms (Views: 363.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-06 19:29:27 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 356ms (Views: 343.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 19:29:32 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 241ms (Views: 240.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 19:29:57 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (1.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 355ms (Views: 342.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 19:30:06 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.5ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.5ms)
+Completed 200 OK in 370ms (Views: 369.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-05-06 19:30:08 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 223ms (Views: 221.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-05-06 19:30:10 -0700
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 230ms (Views: 229.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:30:12 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 232ms (Views: 231.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:31:00 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 352ms (Views: 340.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 19:31:06 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 240ms (Views: 238.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 19:31:45 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (1.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 353ms (Views: 340.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 19:33:25 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (1.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 357ms (Views: 344.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:33:30 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (3.9ms)
+Completed 200 OK in 362ms (Views: 361.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-06 19:35:55 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.5ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 227ms (Views: 226.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 19:35:58 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 234ms (Views: 233.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-05-06 19:36:07 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 232ms (Views: 231.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-05-06 19:36:10 -0700
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 237ms (Views: 236.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-06 19:36:16 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 210ms (Views: 209.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-05-06 19:36:35 -0700
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 233ms (Views: 232.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-07 16:25:04 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 348ms (Views: 336.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2015-05-07 16:25:06 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/rob/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/rob/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/rob/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (9.3ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (48.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-07 16:27:01 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 290ms (Views: 289.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-08 13:20:02 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.9ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 569ms (Views: 541.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-08 13:21:34 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 262ms (Views: 261.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-08 13:21:44 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 212ms (Views: 211.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-05-08 13:21:59 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (1.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 229ms (Views: 227.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-08 13:29:58 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 288ms (Views: 283.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-05-08 13:41:22 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 353ms (Views: 340.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-05-08 13:47:57 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (1.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 440ms (Views: 427.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-05-08 13:52:19 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 237ms (Views: 236.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-05-08 13:53:56 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 220ms (Views: 219.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-05-08 13:54:10 -0700
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 239ms (Views: 238.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-08 13:54:17 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 235ms (Views: 233.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-08 14:07:41 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.8ms)
+  Rendered inline template (0.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.4ms)
+Completed 200 OK in 523ms (Views: 497.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-05-08 14:07:48 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 268ms (Views: 266.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-05-08 14:07:49 -0700
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 245ms (Views: 243.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-08 14:08:22 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 227ms (Views: 226.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-08 14:08:40 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 234ms (Views: 233.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-08 14:08:51 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 223ms (Views: 222.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-08 14:12:22 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 235ms (Views: 234.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-08 14:12:30 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 225ms (Views: 224.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-05-08 14:12:35 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 219ms (Views: 218.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-08 14:12:37 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 237ms (Views: 236.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-08 14:14:32 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 233ms (Views: 232.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-08 14:14:54 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 234ms (Views: 232.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-08 14:15:16 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 226ms (Views: 225.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-08 14:16:15 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 235ms (Views: 234.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-05-08 14:16:17 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 229ms (Views: 227.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-05-08 14:16:19 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 228ms (Views: 226.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-05-08 14:16:33 -0700
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 236ms (Views: 235.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-05-08 14:17:00 -0700
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 247ms (Views: 246.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-05-08 14:17:02 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 235ms (Views: 234.6ms | ActiveRecord: 0.0ms)
