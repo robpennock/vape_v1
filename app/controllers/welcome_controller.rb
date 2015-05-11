@@ -10,19 +10,22 @@ class WelcomeController < ApplicationController
 		#strings of tag text for carousel captions
 		@carTagText = ["<h1>Welcome to elevape</h1>
 					</br>
-					<h2>Home of Vallejo's Finest Vapor Products</h2>
-					</br><h2>Opening Soon!</h2>", 
+					<h2>Home of Vallejo's Finest Vapor Products and Lounge</h2>
+					</br><h2>Grand Opening Sat, May 9!</h2>", 
 					"<h1>High Quality and Locally Made Products</h1>
 		  			<h2>For the cleanest experience</h2>",
           			"<h1>Visit Us At</h1>
 		  			<h2>419 Georgia st Suite 9</h2>
 		  			<h2>Vallejo, CA</h2>
 		  			<h2>PH: 805-354-9692</h2>
-		  			<h2>Hours 11am - 730pm Daily</h2>" ]
+		  			</br>
+		  			<h2>Hours: 11am - 7:30pm Mon - Thurs</h2>
+		  			<h2>&nbsp; 11am - 9pm Fri - Sat</h2>
+		  			<h2>&nbsp; 12pm - 5pm Sun</h2>" ]
 	end
 
 	def fluids
-		@vImages = [ "high_voltage_family3.jpg", "high_voltage_family2.jpg", "juicyohms3.jpg" ]
+		@vImages = [ "high_voltage_family3.jpg", "high_voltage_family2.jpg", "juicyohms2.jpg" ]
 		@imgSize = "800x600"
 		@carTagText = ["<h1>At elevape</h1>
 					<h2>We <i>Only</i> Carry Finest Vapor Products</h2>
@@ -37,7 +40,10 @@ class WelcomeController < ApplicationController
 		  			<h2>419 Georgia st Suite 9</h2>
 		  			<h2>Vallejo, CA</h2>
 		  			<h2>PH: 805-354-9692</h2>
-		  			<h2>Hours 11am - 730pm Daily</h2>" ]
+		  			</br>
+		  			<h2>Hours: 11am - 7:30pm Mon - Thurs</h2>
+		  			<h2>&nbsp; 11am - 9pm Fri - Sat</h2>
+		  			<h2>&nbsp; 12pm - 5pm Sun</h2>" ]
 	end
 
 	def kits
@@ -52,17 +58,20 @@ class WelcomeController < ApplicationController
           			<h2>Lotus</h2>
           			<h2>MXJO</h2>
           			<h2>Efest</h2>",
-          			"<h1>Visit Us At</h1>
+          			"</br><h1>Visit Us At</h1>
 		  			<h2>419 Georgia st Suite 9</h2>
 		  			<h2>Vallejo, CA</h2>
 		  			<h2>PH: 805-354-9692</h2>
-		  			<h2>Hours 11am - 730pm Daily</h2>" ]
+		  			</br>
+		  			<h2>Hours: 11am - 7:30pm Mon - Thurs</h2>
+		  			<h2>&nbsp; 11am - 9pm Fri - Sat</h2>
+		  			<h2>&nbsp; 12pm - 5pm Sun</h2>" ]
 	end
 
 	def about
 		@vImages = [ "spence_climb.jpg", "nate_spence.jpg", "nate.jpg" ]
 		@imgSize = "640x640"
-		@carTagText = ["<h1><b>elevape</b> is Family Owned and Operated</h1>
+		@carTagText = ["<h1>elevape is Family Owned and Operated</h1>
 					</br>", 
 					"<h1>Come by and visit us anytime!</h1>
           			</br>",
@@ -70,6 +79,9 @@ class WelcomeController < ApplicationController
 		  			<h2>419 Georgia st Suite 9</h2>
 		  			<h2>Vallejo, CA</h2>
 		  			<h2>PH: 805-354-9692</h2>
-		  			<h2>Hours 11am - 730pm Daily</h2>" ]
+		  			</br>
+		  			<h2>Hours: 11am - 7:30pm Mon - Thurs</h2>
+		  			<h2>&nbsp; 11am - 9pm Fri - Sat</h2>
+		  			<h2>&nbsp; 12pm - 5pm Sun</h2>" ]
 	end
 end

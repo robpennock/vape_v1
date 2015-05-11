@@ -92,14 +92,17 @@ body{
   width:100%;
   height:90%;
   margin: 0 auto;
-
+  text-align:center;
+  vertical-align: middle;
 }
 .carousel-caption {
-
-  margin-bottom: 20%;
+  top: 10%;
+  bottom: auto;
+  /*margin-bottom: 20%;*/
   text-align:center;
   color: white;
   text-shadow: black 2px 2px 6px;
+  vertical-align: middle;
 }
 /* Override Bootstrap 3 font locations */
 /*for glyphicon failures*/
@@ -111,14 +114,19 @@ body{
   url('../assets/glyphicons-halflings-regular.ttf') format('truetype'),
   url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
-/* used to align images inside carousel*/
+/* used to align images inside carousel
 .inner-item {
     text-align: center;
     img {
         margin: 0 auto;
         overflow: hidden;
     }
-}
+}*/
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
 #elevapeLogo{
   font-family: 'Yesteryear', 'cursive';
   font-size: 40px;
