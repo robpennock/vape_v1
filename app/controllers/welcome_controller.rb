@@ -11,7 +11,7 @@ class WelcomeController < ApplicationController
 		@carTagText = ["<h1>Welcome to elevape</h1>
 					</br>
 					<h2>Home of Vallejo's Finest Vapor Products and Lounge</h2>
-					</br><h2>Grand Opening Sat, May 9!</h2>", 
+					</br><h2>Now Open!</h2>", 
 					"<h1>High Quality and Locally Made Products</h1>
 		  			<h2>For the cleanest experience</h2>",
           			"<h1>Visit Us At</h1>
@@ -26,7 +26,7 @@ class WelcomeController < ApplicationController
 
 	def fluids
 		@vImages = [ "high_voltage_family3.jpg", "high_voltage_family2.jpg", "juicyohms2.jpg" ]
-		@imgSize = "800x600"
+		@imgSize = "1280x720"
 		@carTagText = ["<h1>At elevape</h1>
 					<h2>We <i>Only</i> Carry Finest Vapor Products</h2>
 					</br>", 
@@ -48,7 +48,7 @@ class WelcomeController < ApplicationController
 
 	def kits
 		@vImages = [ "Aspire-Atlantis-disassembled.jpg", "lotus-le80-2.jpg", "efest.jpg" ]
-		@imgSize = "960x640"
+		@imgSize = "1280x720"
 		@carTagText = ["<h1>At elevape</h1>
 					</br>
 					<h2>We <i>Only</i> Carry Finest Vapor Kits, Mods, and Batteries</h2>
@@ -69,8 +69,8 @@ class WelcomeController < ApplicationController
 	end
 
 	def about
-		@vImages = [ "spence_climb.jpg", "nate_spence.jpg", "nate.jpg" ]
-		@imgSize = "640x640"
+		@vImages = [ "spence_climb.jpg", "frontpool.jpg", "nate.jpg" ]
+		@imgSize = "1280x720"
 		@carTagText = ["<h1>elevape is Family Owned and Operated</h1>
 					</br>", 
 					"<h1>Come by and visit us anytime!</h1>

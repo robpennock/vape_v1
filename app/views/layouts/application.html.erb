@@ -78,7 +78,7 @@
             <div class="carousel-inner">
               <div class="item active">
                 <div class="inner-item">
-                  <%= image_tag @vImages.fetch(0), size: @imgSize %>
+                  <%= image_tag @vImages.fetch(0)%>
                   <div class="carousel-caption">
                     <%= render inline: @carTagText.fetch(0) %>
                   </div>
@@ -86,7 +86,7 @@
               </div>
               <div class="item">
                   <div class="inner-item">
-                    <%= image_tag @vImages.fetch(1), size: @imgSize %>
+                    <%= image_tag @vImages.fetch(1) %>
                     <div class="carousel-caption">
                         <%= render inline: @carTagText.fetch(1) %>
                     </div>
@@ -94,7 +94,8 @@
                 </div>
                 <div class="item">
                   <div class ="inner-item">
-                    <%= image_tag @vImages.fetch(2), size: @imgSize %>
+                   <!-- <%= image_tag @vImages.fetch(2), size: @imgSize %> -->
+                    <%= image_tag @vImages.fetch(2) %>
                     <div class="carousel-caption">
                       <%= render inline: @carTagText.fetch(2) %>
                     </div>
