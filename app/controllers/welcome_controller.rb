@@ -12,16 +12,14 @@ class WelcomeController < ApplicationController
 					</br>
 					<h2>Home of Vallejo's Finest Vapor Products and Lounge</h2>
 					</br><h2>Now Open!</h2>", 
-					"<h1>High Quality and Locally Made Products</h1>
-		  			<h2>For the cleanest experience</h2>",
-          			"<h1>Visit Us At</h1>
+					"<h1>Visit Us At</h1>
 		  			<h2>419 Georgia st Suite 9</h2>
 		  			<h2>Vallejo, CA</h2>
-		  			<h2>PH: 805-354-9692</h2>
-		  			</br>
-		  			<h2>Hours: 11am - 7:30pm Mon - Thurs</h2>
+		  			<h2>PH: 707-980-6415</h2>",
+          			"<h2>Hours: 11am - 7:30pm Mon - Thurs</h2>
 		  			<h2>&nbsp; 11am - 9pm Fri - Sat</h2>
-		  			<h2>&nbsp; 12pm - 5pm Sun</h2>" ]
+		  			<h2>&nbsp; 12pm - 5pm Sun</h2>
+		  			<h2>Parking in rear off York st!</h2>" ]
 	end
 
 	def fluids
@@ -39,7 +37,7 @@ class WelcomeController < ApplicationController
           			"<h1>Visit Us At</h1>
 		  			<h2>419 Georgia st Suite 9</h2>
 		  			<h2>Vallejo, CA</h2>
-		  			<h2>PH: 805-354-9692</h2>
+		  			<h2>PH: 707-980-6415</h2>
 		  			</br>
 		  			<h2>Hours: 11am - 7:30pm Mon - Thurs</h2>
 		  			<h2>&nbsp; 11am - 9pm Fri - Sat</h2>
@@ -61,7 +59,7 @@ class WelcomeController < ApplicationController
           			"</br><h1>Visit Us At</h1>
 		  			<h2>419 Georgia st Suite 9</h2>
 		  			<h2>Vallejo, CA</h2>
-		  			<h2>PH: 805-354-9692</h2>
+		  			<h2>PH: 707-980-6415</h2>
 		  			</br>
 		  			<h2>Hours: 11am - 7:30pm Mon - Thurs</h2>
 		  			<h2>&nbsp; 11am - 9pm Fri - Sat</h2>
@@ -78,7 +76,7 @@ class WelcomeController < ApplicationController
           			"<h1>Visit Us At</h1>
 		  			<h2>419 Georgia st Suite 9</h2>
 		  			<h2>Vallejo, CA</h2>
-		  			<h2>PH: 805-354-9692</h2>
+		  			<h2>PH: 707-980-6415</h2>
 		  			</br>
 		  			<h2>Hours: 11am - 7:30pm Mon - Thurs</h2>
 		  			<h2>&nbsp; 11am - 9pm Fri - Sat</h2>
