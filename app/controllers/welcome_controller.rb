@@ -3,8 +3,8 @@ class WelcomeController < ApplicationController
 
 	def home
 		#text array of image locations fo the application layout carousel
-		@vImages = [ "Tall-Iceberg-1280x720.jpg", "Tall-Iceberg-1280x720.jpg" ,
-						"Tall-Iceberg-1280x720.jpg" ]
+		@vImages = [ "vapor2.jpg", "storefront2.jpg" ,
+						"elevpool.jpg" ]
 		#uniform img size for carousel
 		@imgSize = "1280x720"
 		#strings of tag text for carousel captions
@@ -54,7 +54,9 @@ class WelcomeController < ApplicationController
 					"<h1>We Proudly Carry</h1>
 					<h2>Aspire</h2>
           			<h2>Lotus</h2>
-          			<h2>MXJO</h2>
+          			<h2>Sigelei</h2>
+          			<h2>Smpl</h2>
+          			<h2>MXJO Batteries</h2>
           			<h2>Efest</h2>",
           			"</br><h1>Visit Us At</h1>
 		  			<h2>419 Georgia st Suite 9</h2>
