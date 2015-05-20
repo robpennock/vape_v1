@@ -16,7 +16,7 @@ class WelcomeController < ApplicationController
 		  			<h2>419 Georgia st Suite 9</h2>
 		  			<h2>Vallejo, CA</h2>
 		  			<h2>PH: 707-980-6415</h2>",
-          			"<h2>Hours: 11am - 7:30pm Mon - Thurs</h2>
+          			"<h2>Hours: 12pm - 8pm Mon - Thurs</h2>
 		  			<h2>&nbsp; 11am - 9pm Fri - Sat</h2>
 		  			<h2>&nbsp; 12pm - 5pm Sun</h2>
 		  			<h2>Parking in rear off York st!</h2>" ]
@@ -39,7 +39,7 @@ class WelcomeController < ApplicationController
 		  			<h2>Vallejo, CA</h2>
 		  			<h2>PH: 707-980-6415</h2>
 		  			</br>
-		  			<h2>Hours: 11am - 7:30pm Mon - Thurs</h2>
+		  			<h2>Hours: 12pm - 8pm Mon - Thurs</h2>
 		  			<h2>&nbsp; 11am - 9pm Fri - Sat</h2>
 		  			<h2>&nbsp; 12pm - 5pm Sun</h2>" ]
 	end
@@ -63,7 +63,7 @@ class WelcomeController < ApplicationController
 		  			<h2>Vallejo, CA</h2>
 		  			<h2>PH: 707-980-6415</h2>
 		  			</br>
-		  			<h2>Hours: 11am - 7:30pm Mon - Thurs</h2>
+		  			<h2>Hours: 12pm - 8pm Mon - Thurs</h2>
 		  			<h2>&nbsp; 11am - 9pm Fri - Sat</h2>
 		  			<h2>&nbsp; 12pm - 5pm Sun</h2>" ]
 	end
@@ -80,7 +80,7 @@ class WelcomeController < ApplicationController
 		  			<h2>Vallejo, CA</h2>
 		  			<h2>PH: 707-980-6415</h2>
 		  			</br>
-		  			<h2>Hours: 11am - 7:30pm Mon - Thurs</h2>
+		  			<h2>Hours: 12pm - 8pm Mon - Thurs</h2>
 		  			<h2>&nbsp; 11am - 9pm Fri - Sat</h2>
 		  			<h2>&nbsp; 12pm - 5pm Sun</h2>" ]
 	end
