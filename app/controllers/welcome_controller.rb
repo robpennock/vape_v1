@@ -23,7 +23,7 @@ class WelcomeController < ApplicationController
 	end
 
 	def fluids
-		@vImages = [ "high_voltage_family3.jpg", "high_voltage_family2.jpg", "Royal.jpg" ]
+		@vImages = [ "high_voltage_family3.jpg", "Cuttwood.jpg", "Royal.jpg" ]
 		@imgSize = "1280x720"
 		@carTagText = ["<h1>At elevape</h1>
 					<h2>We <i>Only</i> Carry Finest Vapor Products</h2>

@@ -146,3 +146,17 @@ body{
   color: white;
   text-shadow: -1px 1px 4px #27f2d4;
 }
+#gmap{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  overflow: hidden;
+  background-color: #1A3340;
+}
