@@ -17,8 +17,8 @@ class WelcomeController < ApplicationController
 		  			<h2>Vallejo, CA</h2>
 		  			<h2>PH: 707-980-6415</h2>",
           			"<h2>Hours: 12pm - 8pm Mon - Thurs</h2>
-		  			<h2>&nbsp; 11am - 9pm Fri - Sat</h2>
-		  			<h2>&nbsp; 12pm - 5pm Sun</h2>
+		  			<h2>&nbsp; 12pm - 9pm Fri - Sat</h2>
+		  			<h2>&nbsp; 12pm - 6pm Sun</h2>
 		  			<h2>Parking in rear off York st!</h2>" ]
 	end
 
@@ -40,7 +40,7 @@ class WelcomeController < ApplicationController
 		  			<h2>PH: 707-980-6415</h2>
 		  			</br>
 		  			<h2>Hours: 12pm - 8pm Mon - Thurs</h2>
-		  			<h2>&nbsp; 11am - 9pm Fri - Sat</h2>
+		  			<h2>&nbsp; 12pm - 9pm Fri - Sat</h2>
 		  			<h2>&nbsp; 12pm - 5pm Sun</h2>" ]
 	end
 
@@ -53,19 +53,19 @@ class WelcomeController < ApplicationController
 					</br>", 
 					"<h1>We Proudly Carry</h1>
 					<h2>Aspire</h2>
-          			<h2>Lotus</h2>
+          			<h2>Snow Wolf</h2>
+          			<h2>VPRS</h2>
           			<h2>Sigelei</h2>
           			<h2>Smpl</h2>
-          			<h2>MXJO Batteries</h2>
-          			<h2>Efest</h2>",
+          			<h2>MXJO, LG, Samsung & Efest Batteries</h2>",
           			"</br><h1>Visit Us At</h1>
 		  			<h2>419 Georgia st Suite 9</h2>
 		  			<h2>Vallejo, CA</h2>
 		  			<h2>PH: 707-980-6415</h2>
 		  			</br>
 		  			<h2>Hours: 12pm - 8pm Mon - Thurs</h2>
-		  			<h2>&nbsp; 11am - 9pm Fri - Sat</h2>
-		  			<h2>&nbsp; 12pm - 5pm Sun</h2>" ]
+		  			<h2>&nbsp; 12pm - 9pm Fri - Sat</h2>
+		  			<h2>&nbsp; 12pm - 6pm Sun</h2>" ]
 	end
 
 	def about
@@ -81,7 +81,7 @@ class WelcomeController < ApplicationController
 		  			<h2>PH: 707-980-6415</h2>
 		  			</br>
 		  			<h2>Hours: 12pm - 8pm Mon - Thurs</h2>
-		  			<h2>&nbsp; 11am - 9pm Fri - Sat</h2>
-		  			<h2>&nbsp; 12pm - 5pm Sun</h2>" ]
+		  			<h2>&nbsp; 12pm - 9pm Fri - Sat</h2>
+		  			<h2>&nbsp; 12pm - 6pm Sun</h2>" ]
 	end
 end
