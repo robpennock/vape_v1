@@ -3,7 +3,7 @@ class WelcomeController < ApplicationController
 
 	def home
 		#text array of image locations fo the application layout carousel
-		@vImages = [ "vapor2.jpg", "storefront2.jpg" ,
+		@vImages = [ "storefront2.jpg", "newshopinside.jpg",
 						"elevpool.jpg" ]
 		#uniform img size for carousel
 		@imgSize = "1280x720"
@@ -29,11 +29,13 @@ class WelcomeController < ApplicationController
 					<h2>We <i>Only</i> Carry Finest Vapor Products</h2>
 					</br>", 
 					"<h1>Now Carrying</h1>
+					<h2>Royal</h2>
 		  			<h2>High Voltage</h2>
-		  			<h2>Royal</h2>
-		  			<h2>Cuttwood</h2>
+		  			<h2>Lost Arts</h2>
+		  			<h2>Jazzy Boba</h2>
+		  			<h2>Nicobine</h2>
 		  			<h2>Juicy Ohms</h2>
-		  			<h2>Nicobine</h2>",
+		  			<h2>Cuttwood</h2>",
           			"<h1>Visit Us At</h1>
 		  			<h2>419 Georgia st Suite 9</h2>
 		  			<h2>Vallejo, CA</h2>
@@ -45,7 +47,7 @@ class WelcomeController < ApplicationController
 	end
 
 	def kits
-		@vImages = [ "Aspire-Atlantis-disassembled.jpg", "lotus-le80-2.jpg", "efest.jpg" ]
+		@vImages = [ "snowwolf.jpg", "VPRS.jpg", "IPV4.jpg" ]
 		@imgSize = "1280x720"
 		@carTagText = ["<h1>At elevape</h1>
 					</br>
@@ -55,8 +57,10 @@ class WelcomeController < ApplicationController
 					<h2>Aspire</h2>
           			<h2>Snow Wolf</h2>
           			<h2>VPRS</h2>
+          			<h2>IPV</h2>
           			<h2>Sigelei</h2>
           			<h2>Smpl</h2>
+          			<h2>Mutation</h2>
           			<h2>MXJO, LG, Samsung & Efest Batteries</h2>",
           			"</br><h1>Visit Us At</h1>
 		  			<h2>419 Georgia st Suite 9</h2>
@@ -69,7 +73,7 @@ class WelcomeController < ApplicationController
 	end
 
 	def about
-		@vImages = [ "spence_climb.jpg", "frontpool.jpg", "nate.jpg" ]
+		@vImages = [ "spence_climb.jpg", "newshopinside.jpg", "nate.jpg" ]
 		@imgSize = "1280x720"
 		@carTagText = ["<h1>elevape is Family Owned and Operated</h1>
 					</br>", 
