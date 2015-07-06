@@ -22,6 +22,24 @@ class WelcomeController < ApplicationController
 		  			<h2>Parking in rear off York st!</h2>" ]
 	end
 
+	def games
+		#text array of image locations fo the application layout carousel
+		@vImages = [ "ps3.jpg", "newpool.jpg",
+						"newpool2.jpg" ]
+		#uniform img size for carousel
+		@imgSize = "1280x720"
+		#strings of tag text for carousel captions
+		@carTagText = ["<h1>At elevape</h1>
+					</br>
+					<h2>We Have a wide selection of games</h2>", 
+					"<h1>Video games: $10/hr</h1>
+		  			<h1>Billiards $5/hr</h1>",
+          			"<h2>Hours: 12pm - 8pm Mon - Thurs</h2>
+		  			<h2>&nbsp; 12pm - 9pm Fri - Sat</h2>
+		  			<h2>&nbsp; 12pm - 6pm Sun</h2>
+		  			<h2>Parking in rear off York st!</h2>" ]
+	end
+
 	def fluids
 		@vImages = [ "high_voltage_family3.jpg", "Cuttwood.jpg", "Royal.jpg" ]
 		@imgSize = "1280x720"
