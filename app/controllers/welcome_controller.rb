@@ -10,7 +10,7 @@ class WelcomeController < ApplicationController
 		#strings of tag text for carousel captions
 		@carTagText = ["<h1>Welcome to elevape</h1>
 					</br>
-					<h2>Home of Vallejo's Finest Vapor Products and Lounge</h2>
+					<h2>Vallejo's Premium Game Lounge and Vape Shop</h2>
 					</br><h2>Now Open!</h2>", 
 					"<h1>Visit Us At</h1>
 		  			<h2>419 Georgia st Suite 9</h2>
