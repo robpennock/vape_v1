@@ -32,8 +32,8 @@ class WelcomeController < ApplicationController
 		@carTagText = ["<h1>At elevape</h1>
 					</br>
 					<h2>We Have a wide selection of games</h2>", 
-					"<h1>Video games: $10/hr</h1>
-		  			<h1>Billiards $5/hr</h1>",
+					"<h1>Video games: free</h1>
+		  			<h1>Billiards: free</h1>",
           			"<h2>Hours: 12pm - 8pm Mon - Thurs</h2>
 		  			<h2>&nbsp; 12pm - 9pm Fri - Sat</h2>
 		  			<h2>&nbsp; 12pm - 6pm Sun</h2>
