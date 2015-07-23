@@ -67,25 +67,56 @@ body{
   border-radius: 5px;
   overflow: hidden;
 }
-/*carousel width and height*/
-.carousel-inner{
-  width:100%;
-  height:90%;
-  margin: 0 auto;
 
-}
 .carousel-caption {
 
   margin-bottom: 20%;
   text-align:center;
   text-shadow: black 2px 2px 2px;
 }
+
+/*carousel width and height*/
+/*.carousel-inner{
+  width:100% !important;
+  height:100%;
+  margin: 0 auto;
+
+}*/
+
 .inner-item {
     text-align: center;
-    img {
+    /*img {
         margin: 0 auto;
         overflow: hidden;
-    }
+    }*/
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    height: 420px;
+    width: auto;
+}
+
+/* tablets */
+@media (max-width: 991px) and (min-width: 768px) {
+  height: 550px;
+    width: auto;
+}
+
+/* laptops */
+@media (max-width: 1023px) and (min-width: 992px) {
+
+height: 1000;
+    width: , auto;
+
+}
+
+@media (min-width: 1024px) {
+  .carImg{
+    height: 95%;
+    width: auto;
+  }
+
 }
 #elevapeLogo{
   font-family: 'Yesteryear', 'cursive';

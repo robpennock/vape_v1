@@ -34475,3 +34475,1245 @@ Processing by WelcomeController#home as HTML
   Rendered inline template (0.3ms)
   Rendered inline template (0.3ms)
 Completed 200 OK in 214ms (Views: 213.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-23 12:30:44 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.9ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 576ms (Views: 550.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-07-23 12:30:45 -0700
+
+
+Started GET "/assets/welcome-a4a05b03efa903bebe6e8445f2c58f27.css?body=1" for 127.0.0.1 at 2015-07-23 12:30:45 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:45 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:45 -0700
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:45 -0700
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:45 -0700
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:45 -0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:45 -0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:45 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:46 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:46 -0700
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:46 -0700
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:46 -0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:46 -0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:46 -0700
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:46 -0700
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:46 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:46 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:46 -0700
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-07-23 12:30:46 -0700
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2015-07-23 12:30:47 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/rob/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/rob/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/rob/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (29.5ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.3ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (109.2ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-07-23 12:30:56 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 268ms (Views: 266.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-07-23 12:42:34 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 357ms (Views: 343.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/welcome-098fc330de13b27db3b582fe3150d55f.css?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-07-23 12:42:35 -0700
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-07-23 12:49:19 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 429ms
+
+ActionView::Template::Error (undefined local variable or method `carImg' for #<#<Class:0x007fd058738860>:0x007fd05874a880>):
+    79:             <div class="carousel-inner">
+    80:               <div class="item active">
+    81:                 <div class="inner-item">
+    82:                   <%= image_tag @vImages.fetch(0), class:carImg%>
+    83:                   <div class="carousel-caption">
+    84:                     <%= render inline: @carTagText.fetch(0) %>
+    85:                   </div>
+  app/views/layouts/application.html.erb:82:in `_app_views_layouts_application_html_erb__3097126065154710275_70266407131860'
+
+
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (11.3ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /home/rob/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (43.2ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-07-23 12:50:11 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 230ms (Views: 228.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/welcome-4905903840f1d4421adcfbc0984ce992.css?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:12 -0700
+
+
+Started GET "/games" for 127.0.0.1 at 2015-07-23 12:50:16 -0700
+Processing by WelcomeController#games as HTML
+  Rendered welcome/games.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 286ms (Views: 285.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-07-23 12:50:19 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 219ms (Views: 218.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-07-23 12:50:22 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 245ms (Views: 244.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-07-23 12:50:27 -0700
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 207ms (Views: 206.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-07-23 12:50:33 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 227ms (Views: 226.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-23 12:53:33 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 361ms (Views: 349.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/welcome-6d066112e0846a102d3e7546da785fd6.css?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-07-23 12:53:34 -0700
+
+
+Started GET "/games" for 127.0.0.1 at 2015-07-23 12:53:47 -0700
+Processing by WelcomeController#games as HTML
+  Rendered welcome/games.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 240ms (Views: 238.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-07-23 12:53:48 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 229ms (Views: 228.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-07-23 12:53:58 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 217ms (Views: 216.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-07-23 12:54:01 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 244ms (Views: 243.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-07-23 12:54:16 -0700
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 226ms (Views: 225.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-07-23 12:54:18 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 217ms (Views: 216.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-07-23 12:56:54 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 363ms (Views: 350.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-07-23 12:56:54 -0700
+
+
+Started GET "/assets/welcome-fcbb004deaded68468eb51d561e06c83.css?body=1" for 127.0.0.1 at 2015-07-23 12:56:54 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:54 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:55 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:55 -0700
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:55 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-07-23 12:56:55 -0700
+
+
+Started GET "/games" for 127.0.0.1 at 2015-07-23 12:57:18 -0700
+Processing by WelcomeController#games as HTML
+  Rendered welcome/games.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 239ms (Views: 238.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-07-23 12:57:24 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 224ms (Views: 223.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2015-07-23 12:57:25 -0700
+Processing by WelcomeController#games as HTML
+  Rendered welcome/games.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 226ms (Views: 225.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-07-23 12:57:28 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 245ms (Views: 244.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-07-23 12:57:29 -0700
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 222ms (Views: 221.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-07-23 12:57:33 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 216ms (Views: 215.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 260ms (Views: 259.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-07-23 13:08:42 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.4ms)
+Completed 200 OK in 238ms (Views: 236.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-07-23 13:46:54 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2015-07-23 13:48:20 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 359ms (Views: 346.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/welcome-d0c44b260141a02dfdfa93bd1161de87.css?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-07-23 13:48:21 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2015-07-23 13:50:26 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 357ms (Views: 344.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome-069aca2ed8647be6c9162da2c011f423.css?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:27 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2015-07-23 13:50:46 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.7ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 252ms (Views: 251.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-07-23 13:50:46 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 241ms (Views: 240.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-07-23 13:50:54 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 221ms (Views: 220.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-07-23 13:50:54 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-07-23 13:50:55 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2015-07-23 13:51:40 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 357ms (Views: 344.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/welcome-7604474629ce75ab4a79d7eba90db381.css?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-07-23 13:51:41 -0700
+
+
+Started GET "/games" for 127.0.0.1 at 2015-07-23 13:51:55 -0700
+Processing by WelcomeController#games as HTML
+  Rendered welcome/games.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 244ms (Views: 243.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-07-23 13:51:57 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 222ms (Views: 220.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-07-23 13:52:00 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 215ms (Views: 214.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-07-23 13:52:03 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 241ms (Views: 240.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-07-23 13:52:05 -0700
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 238ms (Views: 237.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2015-07-23 13:52:22 -0700
+Processing by WelcomeController#games as HTML
+  Rendered welcome/games.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 213ms (Views: 211.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+Processing by WelcomeController#games as HTML
+  Rendered welcome/games.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 333ms (Views: 332.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/welcome-fca22593d0288cc17a4648093ccb0635.css?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-07-23 13:52:42 -0700
+
+
+Started GET "/games" for 127.0.0.1 at 2015-07-23 13:52:59 -0700
+Processing by WelcomeController#games as HTML
+  Rendered welcome/games.html.erb within layouts/application (1.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 354ms (Views: 341.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides-36c98ea4c4b8c716e8a829fc6a87937c.css?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-07-23 13:53:00 -0700
+
+
+Started GET "/games" for 127.0.0.1 at 2015-07-23 13:53:07 -0700
+Processing by WelcomeController#games as HTML
+  Rendered welcome/games.html.erb within layouts/application (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.2ms)
+Completed 200 OK in 258ms (Views: 257.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2015-07-23 13:53:07 -0700
+Processing by WelcomeController#games as HTML
+  Rendered welcome/games.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 229ms (Views: 228.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games" for 127.0.0.1 at 2015-07-23 13:53:08 -0700
+Processing by WelcomeController#games as HTML
+  Rendered welcome/games.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 214ms (Views: 213.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-07-23 13:53:09 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 233ms (Views: 233.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2015-07-23 13:53:11 -0700
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 249ms (Views: 248.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-07-23 13:53:13 -0700
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.4ms)
+Completed 200 OK in 218ms (Views: 217.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2015-07-23 13:53:17 -0700
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 232ms (Views: 231.1ms | ActiveRecord: 0.0ms)
