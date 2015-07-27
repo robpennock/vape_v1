@@ -65,7 +65,7 @@ class WelcomeController < ApplicationController
 	end
 
 	def kits
-		@vImages = [ "snowwolf.jpg", "VPRS.jpg", "IPV4.jpg" ]
+		@vImages = [ "snowwolf.jpg", "zionbox.jpg", "tubemods.jpg" ]
 		@imgSize = "1280x720"
 		@carTagText = ["<h1>At elevape</h1>
 					</br>
