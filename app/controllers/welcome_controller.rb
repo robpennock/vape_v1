@@ -10,8 +10,8 @@ class WelcomeController < ApplicationController
 		#strings of tag text for carousel captions
 		@carTagText = ["<h1>Welcome to elevape</h1>
 					</br>
-					<h2>Vallejo's Premium Game Lounge and Vape Shop</h2>
-					</br><h2>Now Open!</h2>", 
+					<h2>Vallejo's Premium Vape Lounge and Shop</h2>
+					</br><h2>Open 7 Days a Week!</h2>", 
 					"<h1>Visit Us At</h1>
 		  			<h2>419 Georgia st Suite 9</h2>
 		  			<h2>Vallejo, CA</h2>
@@ -19,7 +19,7 @@ class WelcomeController < ApplicationController
           			"<h2>Hours: 12pm - 8pm Mon - Thurs</h2>
 		  			<h2>&nbsp; 12pm - 9pm Fri - Sat</h2>
 		  			<h2>&nbsp; 12pm - 6pm Sun</h2>
-		  			<h2>Parking in rear off York st!</h2>" ]
+		  			<h2>Parking in rear off 400 York st!</h2>" ]
 	end
 
 	def games
@@ -32,12 +32,12 @@ class WelcomeController < ApplicationController
 		@carTagText = ["<h1>At elevape</h1>
 					</br>
 					<h2>We Have a wide selection of games</h2>", 
-					"<h1>Video games: free</h1>
-		  			<h1>Billiards: free</h1>",
+					"</br><h1>Video games: free</h1>
+		  			</br><h1>Billiards: free</h1>",
           			"<h2>Hours: 12pm - 8pm Mon - Thurs</h2>
 		  			<h2>&nbsp; 12pm - 9pm Fri - Sat</h2>
 		  			<h2>&nbsp; 12pm - 6pm Sun</h2>
-		  			<h2>Parking in rear off York st!</h2>" ]
+		  			<h2>Parking in rear off 400 York st!</h2>" ]
 	end
 
 	def fluids
@@ -54,7 +54,6 @@ class WelcomeController < ApplicationController
 		  			<h2>Lost Arts</h2>
 		  			<h2>Jazzy Boba</h2>
 		  			<h2>Nicobine</h2>
-		  			<h2>Juicy Ohms</h2>
 		  			<h2>Cuttwood</h2>",
           			"<h1>Visit Us At</h1>
 		  			<h2>419 Georgia st Suite 9</h2>
@@ -63,11 +62,12 @@ class WelcomeController < ApplicationController
 		  			</br>
 		  			<h2>Hours: 12pm - 8pm Mon - Thurs</h2>
 		  			<h2>&nbsp; 12pm - 9pm Fri - Sat</h2>
-		  			<h2>&nbsp; 12pm - 5pm Sun</h2>" ]
+		  			<h2>&nbsp; 12pm - 5pm Sun</h2>
+		  			<h2>Parking in rear off 400 York st!</h2>" ]
 	end
 
 	def kits
-		@vImages = [ "snowwolf.jpg", "zionbox.jpg", "tubemods.jpg" ]
+		@vImages = [ "snowwolf.jpg", "poolmod1.jpg", "poolmod3.jpg" ]
 		@imgSize = "1280x720"
 		@carTagText = ["<h1>At elevape</h1>
 					</br>
@@ -75,12 +75,13 @@ class WelcomeController < ApplicationController
 					</br>", 
 					"<h1>We Proudly Carry</h1>
 					<h2>Aspire</h2>
-          			<h2>Snow Wolf</h2>
+          			<h2>Asmodus</h2>
           			<h2>VPRS</h2>
-          			<h2>IPV</h2>
+          			<h2>Flawless</h2>
           			<h2>Sigelei</h2>
-          			<h2>Smpl</h2>
+          			<h2>Rig</h2>
           			<h2>Mutation</h2>
+          			<h2>Joytech</h2>
           			<h2>MXJO, LG, Samsung & Efest Batteries</h2>",
           			"</br><h1>Visit Us At</h1>
 		  			<h2>419 Georgia st Suite 9</h2>
@@ -89,7 +90,8 @@ class WelcomeController < ApplicationController
 		  			</br>
 		  			<h2>Hours: 12pm - 8pm Mon - Thurs</h2>
 		  			<h2>&nbsp; 12pm - 9pm Fri - Sat</h2>
-		  			<h2>&nbsp; 12pm - 6pm Sun</h2>" ]
+		  			<h2>&nbsp; 12pm - 6pm Sun</h2>
+		  			<h2>Parking in rear off 400 York st!</h2>" ]
 	end
 
 	def about
@@ -106,6 +108,7 @@ class WelcomeController < ApplicationController
 		  			</br>
 		  			<h2>Hours: 12pm - 8pm Mon - Thurs</h2>
 		  			<h2>&nbsp; 12pm - 9pm Fri - Sat</h2>
-		  			<h2>&nbsp; 12pm - 6pm Sun</h2>" ]
+		  			<h2>&nbsp; 12pm - 6pm Sun</h2>
+		  			<h2>Parking in rear off 400 York st!</h2>" ]
 	end
 end
