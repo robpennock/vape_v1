@@ -50,6 +50,9 @@
     color: #27f2d4;
     text-shadow: 1px 1px black;
 }
+.dropdown-backdrop {
+    position: static;
+}
 /*-- END NAVBAR STUFF **/
 html{
   height:100%;

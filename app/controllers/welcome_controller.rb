@@ -10,8 +10,8 @@ class WelcomeController < ApplicationController
 		#strings of tag text for carousel captions
 		@carTagText = ["<h1>Welcome to elevape</h1>
 					</br>
-					<h2>Vallejo's Premium Vape Lounge and Shop</h2>
-					</br><h2>Open 7 Days a Week!</h2>", 
+					<h2>Vallejo's Premium Vapor Lounge and Shop</h2>
+					</br>", 
 					"<h1>Visit Us At</h1>
 		  			<h2>419 Georgia st Suite 9</h2>
 		  			<h2>Vallejo, CA</h2>
@@ -22,22 +22,32 @@ class WelcomeController < ApplicationController
 		  			<h2>Parking in rear off 400 York st!</h2>" ]
 	end
 
-	def games
+	def lounge
 		#text array of image locations fo the application layout carousel
-		@vImages = [ "ps3.jpg", "newpool.jpg",
-						"newpool2.jpg" ]
+		@vImages = [ "couch.jpg", "ba.jpg",
+						"ps3.jpg" ]
+		#uniform img size for carousel
+		@imgSize = "1280x720"
+		#strings of tag text for carousel captions
+		@carTagText = ["</br>
+					<h1>Elevape</h1><h2>is Vallejo's premier 18+ lounge!</h2>", 
+					"</br><h1>We have pleanty of comfy seats</h1>
+		  			</br><h1>...and chargers for your convinience</h1>",
+          			"<h1>We also have pleanty of games to play.</h1>
+          			<h1>Free of charge!</h1>" ]
+	end
+	def clothing
+		#text array of image locations fo the application layout carousel
+		@vImages = [ "shirts.jpg", "marlens.jpg",
+						"jewelry.jpg" ]
 		#uniform img size for carousel
 		@imgSize = "1280x720"
 		#strings of tag text for carousel captions
 		@carTagText = ["<h1>At elevape</h1>
 					</br>
-					<h2>We Have a wide selection of games</h2>", 
-					"</br><h1>Video games: free</h1>
-		  			</br><h1>Billiards: free</h1>",
-          			"<h2>Hours: 12pm - 8pm Mon - Thurs</h2>
-		  			<h2>&nbsp; 12pm - 9pm Fri - Sat</h2>
-		  			<h2>&nbsp; 12pm - 6pm Sun</h2>
-		  			<h2>Parking in rear off 400 York st!</h2>" ]
+					<h2>We have a wide selection of Clothing & Accessories</h2>", 
+					"</br><h1>Everything from one of a kind knitwear</h1>",
+          			"</br><h1>To body jewelry</h1>" ]
 	end
 
 	def fluids

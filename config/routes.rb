@@ -4,13 +4,15 @@ Rails.application.routes.draw do
   #much better than get 'welcome/home'
   get 'home' =>  'welcome#home'
 
+  get 'clothing' => 'welcome#clothing'
+
   get 'fluids' => 'welcome#fluids'
 
   get 'kits' => 'welcome#kits'
 
   get 'about' => 'welcome#about'
 
-  get 'games' => 'welcome#games'
+  get 'lounge' => 'welcome#lounge'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
