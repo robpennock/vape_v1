@@ -38261,3 +38261,76 @@ Processing by WelcomeController#about as HTML
   Rendered inline template (0.3ms)
   Rendered inline template (0.3ms)
 Completed 200 OK in 230ms (Views: 228.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2016-11-16 12:55:32 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (1.9ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.6ms)
+  Rendered inline template (0.5ms)
+Completed 200 OK in 593ms (Views: 581.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-11-16 12:55:41 -0800
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.9ms)
+  Rendered inline template (0.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.8ms)
+Completed 200 OK in 287ms (Views: 286.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clothing" for 127.0.0.1 at 2016-11-16 12:55:46 -0800
+Processing by WelcomeController#clothing as HTML
+  Rendered welcome/clothing.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 277ms (Views: 276.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-11-16 12:55:54 -0800
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 274ms (Views: 273.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clothing" for 127.0.0.1 at 2016-11-16 12:56:05 -0800
+Processing by WelcomeController#clothing as HTML
+  Rendered welcome/clothing.html.erb within layouts/application (0.1ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 229ms (Views: 228.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lounge" for 127.0.0.1 at 2016-11-16 12:56:07 -0800
+Processing by WelcomeController#lounge as HTML
+  Rendered welcome/lounge.html.erb within layouts/application (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 276ms (Views: 275.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2016-11-16 12:56:11 -0800
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.4ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 237ms (Views: 236.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-11-16 12:56:15 -0800
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.2ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 235ms (Views: 234.2ms | ActiveRecord: 0.0ms)
