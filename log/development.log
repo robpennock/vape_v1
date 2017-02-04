@@ -38486,3 +38486,49 @@ Processing by WelcomeController#about as HTML
   Rendered inline template (0.6ms)
   Rendered inline template (0.4ms)
 Completed 200 OK in 307ms (Views: 306.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-03 17:03:37 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 447ms (Views: 434.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clothing" for 127.0.0.1 at 2017-02-03 17:03:58 -0800
+Processing by WelcomeController#clothing as HTML
+  Rendered welcome/clothing.html.erb within layouts/application (0.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 302ms (Views: 300.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fluids" for 127.0.0.1 at 2017-02-03 17:04:00 -0800
+Processing by WelcomeController#fluids as HTML
+  Rendered welcome/fluids.html.erb within layouts/application (0.7ms)
+  Rendered inline template (0.8ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.3ms)
+Completed 200 OK in 270ms (Views: 269.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kits" for 127.0.0.1 at 2017-02-03 17:04:02 -0800
+Processing by WelcomeController#kits as HTML
+  Rendered welcome/kits.html.erb within layouts/application (0.5ms)
+  Rendered inline template (0.6ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.7ms)
+Completed 200 OK in 332ms (Views: 330.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-02-03 17:04:04 -0800
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.7ms)
+  Rendered inline template (0.3ms)
+  Rendered inline template (0.4ms)
+  Rendered inline template (0.4ms)
+Completed 200 OK in 267ms (Views: 266.2ms | ActiveRecord: 0.0ms)

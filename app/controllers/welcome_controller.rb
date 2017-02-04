@@ -18,8 +18,7 @@ class WelcomeController < ApplicationController
 		  			<h2>PH: 707-980-6415</h2>",
           			"<h2>Hours: 12pm - 6:30pm Mon</h2>
           			<h2>&nbsp; CLOSED Tues</h2>
-		  			<h2>&nbsp; 12pm - 6:30pm Wed -Thurs</h2>
-		  			<h2>&nbsp; 12pm - 7:00pm Fri -Sat</h2>
+		  			<h2>&nbsp; 12pm - 6:30pm Wed - Sat</h2>
 		  			<h2>&nbsp; 12pm - 5pm Sun</h2>
 		  			<h2>Parking in rear off 400 York st!</h2>" ]
 	end
@@ -74,8 +73,7 @@ class WelcomeController < ApplicationController
 		  			</br>
 		  			<h2>Hours: 12pm - 6:30pm Mon</h2>
           			<h2>&nbsp; CLOSED Tues</h2>
-		  			<h2>&nbsp; 12pm - 6:30pm Wed -Thurs</h2>
-		  			<h2>&nbsp; 12pm - 7:00pm Fri -Sat</h2>
+		  			<h2>&nbsp; 12pm - 6:30pm Wed - Sat</h2>
 		  			<h2>&nbsp; 12pm - 5pm Sun</h2>
 		  			<h2>Parking in rear off 400 York st!</h2>" ]
 	end
@@ -104,8 +102,7 @@ class WelcomeController < ApplicationController
 		  			</br>
 		  			<h2>Hours: 12pm - 6:30pm Mon</h2>
           			<h2>&nbsp; CLOSED Tues</h2>
-		  			<h2>&nbsp; 12pm - 6:30pm Wed -Thurs</h2>
-		  			<h2>&nbsp; 12pm - 7:00pm Fri -Sat</h2>
+		  			<h2>&nbsp; 12pm - 6:30pm Wed - Sat</h2>
 		  			<h2>&nbsp; 12pm - 5pm Sun</h2>
 		  			<h2>Parking in rear off 400 York st!</h2>" ]
 	end
@@ -124,8 +121,7 @@ class WelcomeController < ApplicationController
 		  			</br>
 		  			<h2>Hours: 12pm - 6:30pm Mon</h2>
           			<h2>&nbsp; CLOSED Tues</h2>
-		  			<h2>&nbsp; 12pm - 6:30pm Wed -Thurs</h2>
-		  			<h2>&nbsp; 12pm - 7:00pm Fri -Sat</h2>
+		  			<h2>&nbsp; 12pm - 6:30pm Wed - Sat</h2>
 		  			<h2>&nbsp; 12pm - 5pm Sun</h2>
 		  			<h2>Parking in rear off 400 York st!</h2>" ]
 	end
